@@ -25,7 +25,7 @@ export function Sidebar({
             className={`p-2 rounded-sm  border border-gray-500 ${
               selectedLanguage.name === lang.name 
                 ? 'bg-blue-500 text-white' 
-                : 'hover:bg-gray-200 dark:hover:bg-gray-700'
+                : 'hover:bg-gray-200 dark:hover:bg-gray-300'
             }`}
             title={lang.name}
           >
