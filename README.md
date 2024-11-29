@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Code Editor
 
-First, run the development server:
+A browser-based code editor that supports multiple programming languages, including JavaScript and TypeScript. The application provides an interactive interface for writing, running, and viewing the output of code in real-time, with support for light and dark themes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+----------
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Multi-Language Support
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   Select from a variety of programming languages such as JavaScript and TypeScript.
+    
+-   Each language comes with default boilerplate code to help users get started quickly.
+    
 
-## Learn More
+### Code Execution
 
-To learn more about Next.js, take a look at the following resources:
+-   JavaScript and TypeScript code can be executed directly within the browser.
+    
+-   Output logs or errors are displayed in the output panel.
+    
+-   For other languages, the editor displays the written code in the output panel.
+    
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Theme Toggle
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   Supports light and dark themes.
+    
+-   Automatically detects the user's system theme preference and updates the UI accordingly.
+    
+-   Users can toggle the theme manually via the toggle button in the UI.
+    
 
-## Deploy on Vercel
+### Sidebar Navigation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   A sidebar allows easy navigation and language selection.
+    
+-   Dynamically updates the editor and output panel based on the selected language.
+    
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Clear Output
+
+-   A dedicated button to clear the output panel for a fresh start.
+    
+
+### Responsive Design
+
+-   Fully responsive UI for seamless use across devices, including desktops and mobile devices.
