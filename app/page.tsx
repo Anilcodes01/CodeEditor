@@ -43,7 +43,7 @@ export default function CodeEditorPage() {
       const originalConsoleLog = console.log;
       const logs: string[] = [];
 
-      console.log = (...args: any[]) => {
+      console.log = (...args) => {
         logs.push(args.map((arg) => String(arg)).join(" "));
       };
 
