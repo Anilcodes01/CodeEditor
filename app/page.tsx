@@ -137,6 +137,7 @@ export default function CodeEditorPage() {
                       {theme === "light" ? <Moon /> : <Sun />}
                     </button>
                     <button
+                     onClick={() => setOutput("")}
                       className={`${
                         theme === "dark" ? "text-white" : "text-gray-800"
                       } px-4 py-1.5 border  rounded-sm border-gray-600`}
